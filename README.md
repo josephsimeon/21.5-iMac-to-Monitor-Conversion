@@ -63,7 +63,8 @@ a grid and output a 12V DC with 8.5A current, it's even displayed on the device:
 *The specifications is based on the voltage needed for the HDMI and fan controller, as they require
 12V DC supplied which is viewable in the AliExpress listings.*
 
-**When performing this task make sure the correct wires are attached to the correct terminal**\n
+**When performing this next task make sure the correct wires are attached to the correct terminal**
+
 The iMac's power supply has the connector for the iMac's power cable that needs to be salvaged:
 ![Power supply and switching power supply showing the power cable delivery connector](img/power_supply_and_switching_power_supply.png)
 *The power cable connector from the iMac's power supply are snipped from the PCB and stripped
