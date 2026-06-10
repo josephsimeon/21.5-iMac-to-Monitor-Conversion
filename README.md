@@ -32,7 +32,8 @@ controller can be purchased. The sticker on the back of the panel will show this
 ### Materials
 - Kapton tape
 - Double sided tape
-- Electrical earth 4mm^2
+- [Insulated copper wire 4mm^2^](https://www.bunnings.com.au/deta-5m-1-5mm-earth-single-insulated-cable_p0760616?store=8199&gclsrc=aw.ds&gad_source=1&gad_campaignid=23536369919&gbraid=0AAAAADtbEB8QEOTxCLM00H_oIlhemE8ay&gclid=Cj0KCQjwlqTRBhCBARIsANrkrxjGDfaCJAvMGN44jW4C7daOmCjXGYtUSTPutc6Yl6-hUiGVq3aaDiAaAuKEEALw_wcB) 
+- Electrical tape
 
 ## Salvaging iMac parts
 ### iMac stock power delivery
