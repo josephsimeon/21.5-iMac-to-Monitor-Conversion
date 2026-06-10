@@ -46,24 +46,22 @@ will determine what hardware will be needed*
 
 ## Salvaging iMac parts
 ### iMac stock power delivery
-Keep the iMac's power cabling was important for athetic reasons, to achieve this the input power
+Keep the iMac's power cabling was important for asthetic reasons, to achieve this the input power
 delivery of 240V AC has to be converted to a desired DC output using a switching power supply.
 
 ![Cropped image of the teardown showing the location of the power delivery highlighted in yellow](img/power_cable_highlighted.png)
 *Trying to retain the power delivery will keep the outside asthetic of the project*
 
-**Handling the power supply can be dangerous, BEWARE, the L and N stand for Live and Neutral, the
-wires connected to the iMac power supply can be identifited by colour or you can use some kapton
-tape to wrap and identify the live wire. Live is the colour brown and Neutral is the colour blue.
-There is also lettering on the iMac's power supply that can identify each wire before snipping.**
-
 The Meanwell LRS-100-12 Switching Power Supply can take an input range of 100-240V at 50/60 Hz from
 a grid and output a 12V DC with 8.5A current, it's even displayed on the device:
 ![Label of the switching power supply showing specifications](img/switching_power_supply_label.png)
-*The specifications is based on the voltage needed for the HDMI and fan controller, as they require
-12V DC supplied which is viewable in the AliExpress listings.*
+*The choice of this Meanwell LRS-100-12 is based on the voltage needed for the HDMI and fan
+controller as they require 12V DC supplied to power the fans and power the panel via HDMI*
 
-**When performing this next task make sure the correct wires are attached to the correct terminal**
+**When performing this next task make sure the correct wires are attached to the correct terminal,
+handling the power supply is dangerious, TAKE NOTICE, the live (L) and neutral (N) wire connector
+needs to be snipped, stripped and attached to the switching power supply correctly. Wrap kapton
+tape around the live wire befor snipping.**
 
 The iMac's power supply has the connector for the iMac's power cable that needs to be salvaged:
 ![Power supply and switching power supply showing the power cable delivery connector](img/power_supply_and_switching_power_supply.png)
@@ -78,7 +76,11 @@ An electrical earth needs to be added and attached to the metal case as groundin
 secured with electrical tape that can handle the temperature while also being attached to the
 ground terminal of the switching power supply.
 
-[TODO! image & caption of the final placement and connections of the switching power supply]
+![Project showing the final placement and attachments of the power delivery using the switching
+power supply](img/switching_power_supply_installed.png)
+*Earth wire was stripped on both ends with bare wire being screwed into the ground terminal
+location on the switching power supply and a terminal end was attached to the other side to be
+screwed into the grounding lug of the chassis*
 
 ### iMac speakers
 
