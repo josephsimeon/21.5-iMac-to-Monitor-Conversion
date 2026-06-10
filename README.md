@@ -1,6 +1,8 @@
 # 21.5" iMac to Monitor Conversion
 Converting a 21.5" iMac that doesn't work anymore into an external monitor.
 
+[TODO! image & caption for finished project]
+
 **Read the guide before attempting anything**
 
 ## Teardown of the iMac
@@ -9,11 +11,15 @@ You can follow the instructions of iFixit's teardowns such as the [iMac Intel 21
 prepare the monitor, this teardown is the closest to the model that is used in this project which
 is a 21.5" iMac 1311 which was released late 2009, mid 2010 and mid 2011.
 
-**Read this!**
+![Teardown of 21.5 inch iMac displaying stock parts being salvaged](img/teardown.png)
+*Teardown of the project, showing stock parts from the iMac that is going to be used in the
+project*
+
+### **Read this!**
 The teardown is needed to find what type of panel is being used in the iMac so the approaiate HDMI
 controller can be purchased. The sticker on the back of the panel will show this:
 
-[TODO! image & caption]
+[TODO! image & caption of teardown completed showing salvaged parts]
 
 ## Equipment, hardware & materials
 ### Equipment
@@ -43,7 +49,7 @@ delivery of 240V AC has to be converted to a desired DC output using a switching
 The Meanwell LRS-100-12 Switching Power Supply can take an input range of 100-240V at 50/60 Hz from
 a grid and output a 12V DC with 8.5A current, it's even displayed on the device:
 
-[TODO! image & caption]
+[TODO! image & caption highlighted part of what is the power delivery]
 
 The reason for going for 12V DC is that is the voltage needed for the HDMI & fan controller, both
 requiring 12V DC supplied which can be seen in the diagrams within the listings.
@@ -53,7 +59,7 @@ using wire cutters, the ends need to be stripped as well which can be done with 
 wire strippers so they can be connected to the Meanwell LRS-100-12 by clamping the exposed wire in
 the appropriate terminal.
 
-[TODO! image & caption]
+[TODO! image & caption showing the power supply, wires and switching power supply]
 
 **Handling the power supply can be dangerous, BEWARE, the L and N stand for Live and Neutral, the
 wires connected to the iMac power supply can be identifited by colour or you can use some kapton
@@ -63,10 +69,15 @@ There is also lettering on the iMac's power supply that can identify each wire b
 Kapton tape was placed strip by strip on the side and the bottom of the Meanwell LRS-100-12 with
 double sided tape placed on the bottom that will secure the power supply to the chasis of the iMac.
 
-
-[TODO! image & caption]
+[TODO! image & caption kapton and double sided tape]
 
 An electrical earth needs to be added and attached to the metal case as grounding which will be
 secured with electrical tape that can handle the temperature.
 
-[TODO! image & caption]
+[TODO! image & caption of the final placement and connections of the switching power supply]
+
+### iMac speakers
+
+### iMac panel
+
+### Future considerations
