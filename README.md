@@ -74,8 +74,8 @@ enough for the bare wire to be wrapped around the terminal screw*
 will be used to attach it*
 
 An electrical earth needs to be added and attached to the metal case as grounding which will be
-secured with electrical tape that can handle the temperature while also being attached to the
-ground terminal of the switching power supply.
+secured with terminal end that can handle the temperature of mains ampere while also being attached 
+to the ground terminal of the switching power supply.
 
 ![Project showing the final placement and attachments of the power delivery using the switching
 power supply](img/switching_power_supply_installed.png)
