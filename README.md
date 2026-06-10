@@ -60,7 +60,7 @@ a grid and output a 12V DC with 8.5A current, it's even displayed on the device:
 controller as they require 12V DC supplied to power the fans and power the panel via HDMI*
 
 **When performing this next task make sure the correct wires are attached to the correct terminal,
-handling the power supply is dangerious, TAKE NOTICE, the live (L) and neutral (N) wire connector
+handling the power supply is dangerous, TAKE NOTICE, the live (L) and neutral (N) wire connector
 needs to be snipped, stripped and attached to the switching power supply correctly. Wrap kapton
 tape around the live wire befor snipping.**
 
