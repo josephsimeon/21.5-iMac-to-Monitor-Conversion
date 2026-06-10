@@ -49,31 +49,33 @@ will determine what hardware will be needed*
 Keep the iMac's power cabling was important for athetic reasons, to achieve this the input power
 delivery of 240V AC has to be converted to a desired DC output using a switching power supply.
 
-The Meanwell LRS-100-12 Switching Power Supply can take an input range of 100-240V at 50/60 Hz from
-a grid and output a 12V DC with 8.5A current, it's even displayed on the device:
 ![Cropped image of the teardown showing the location of the power delivery highlighted in yellow](img/power_cable_highlighted.png)
-
-The reason for going for 12V DC is that is the voltage needed for the HDMI & fan controller, both
-requiring 12V DC supplied which can be seen in the diagrams within the listings.
-
-The iMac's power supply has the connector for the iMac's power cable, these will be snipped off
-using wire cutters, the ends need to be stripped as well which can be done with the wire cutters or
-wire strippers so they can be connected to the Meanwell LRS-100-12 by clamping the exposed wire in
-the appropriate terminal:
-![Power supply and switching power supply showing the power cable delivery connector](img/power_supply_and_switching_power_supply.png)
+*Trying to retain the power delivery will keep the outside asthetic of the project*
 
 **Handling the power supply can be dangerous, BEWARE, the L and N stand for Live and Neutral, the
 wires connected to the iMac power supply can be identifited by colour or you can use some kapton
 tape to wrap and identify the live wire. Live is the colour brown and Neutral is the colour blue.
 There is also lettering on the iMac's power supply that can identify each wire before snipping.**
 
-Kapton tape was placed strip by strip on the side and the bottom of the Meanwell LRS-100-12 with
-double sided tape placed on the bottom that will secure the power supply to the chassis of the iMac
-as well as reduce metal on metal contact between the switching power supply and the metal chassis:
+The Meanwell LRS-100-12 Switching Power Supply can take an input range of 100-240V at 50/60 Hz from
+a grid and output a 12V DC with 8.5A current, it's even displayed on the device:
+![Label of the switching power supply showing specifications](img/switching_power_supply_label.png)
+*The specifications is based on the voltage needed for the HDMI and fan controller, as they require
+12V DC supplied which is viewable in the AliExpress listings.*
+
+**When performing this task make sure the correct wires are attached to the correct terminal**\n
+The iMac's power supply has the connector for the iMac's power cable that needs to be salvaged:
+![Power supply and switching power supply showing the power cable delivery connector](img/power_supply_and_switching_power_supply.png)
+*The power cable connector from the iMac's power supply are snipped from the PCB and stripped
+enough for the bare wire to be wrapped around the terminal screw*
+
 ![Switching power supply taped up](img/switching_power_supply_taped.png)
+*Kapton tape was used to cover the metal to reduce contact with iMac chassis and doubled-sided tape
+will be used to attach it*
 
 An electrical earth needs to be added and attached to the metal case as grounding which will be
-secured with electrical tape that can handle the temperature.
+secured with electrical tape that can handle the temperature while also being attached to the
+ground terminal of the switching power supply.
 
 [TODO! image & caption of the final placement and connections of the switching power supply]
 
