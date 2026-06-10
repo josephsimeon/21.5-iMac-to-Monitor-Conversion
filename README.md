@@ -62,7 +62,7 @@ controller as they require 12V DC supplied to power the fans and power the panel
 **When performing this next task make sure the correct wires are attached to the correct terminal,
 handling the power supply is dangerous, TAKE NOTICE, the live (L) and neutral (N) wire connector
 needs to be snipped, stripped and attached to the switching power supply correctly. Wrap kapton
-tape around the live wire befor snipping.**
+tape around the live wire before snipping.**
 
 The iMac's power supply has the connector for the iMac's power cable that needs to be salvaged:
 ![Power supply and switching power supply showing the power cable delivery connector](img/power_supply_and_switching_power_supply.png)
