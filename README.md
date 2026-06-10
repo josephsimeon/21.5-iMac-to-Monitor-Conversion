@@ -43,6 +43,7 @@ will determine what hardware will be needed*
 - Double sided tape
 - [Insulated copper wire 4mm<sup>2</sup>](https://www.bunnings.com.au/deta-5m-1-5mm-earth-single-insulated-cable_p0760616?store=8199&gclsrc=aw.ds&gad_source=1&gad_campaignid=23536369919&gbraid=0AAAAADtbEB8QEOTxCLM00H_oIlhemE8ay&gclid=Cj0KCQjwlqTRBhCBARIsANrkrxjGDfaCJAvMGN44jW4C7daOmCjXGYtUSTPutc6Yl6-hUiGVq3aaDiAaAuKEEALw_wcB) 
 - Electrical tape
+- End terminal rated at minimum 10A
 
 ## Salvaging iMac parts
 ### iMac stock power delivery
@@ -79,8 +80,8 @@ ground terminal of the switching power supply.
 ![Project showing the final placement and attachments of the power delivery using the switching
 power supply](img/switching_power_supply_installed.png)
 *Earth wire was stripped on both ends with bare wire being screwed into the ground terminal
-location on the switching power supply and a terminal end was attached to the other side to be
-screwed into the grounding lug of the chassis*
+location on the switching power supply and a terminal end (you can crimp using wire stripper tip) 
+was attached to the other side to be screwed into the grounding lug of the chassis*
 
 ### iMac speakers
 
