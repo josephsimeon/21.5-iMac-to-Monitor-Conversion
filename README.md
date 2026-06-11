@@ -1,5 +1,6 @@
 # 21.5" iMac to Monitor Conversion
-Converting a 21.5" iMac that doesn't work anymore into an external monitor.
+Converting a 21.5" iMac that doesn't work anymore into an external monitor while keeping the
+aesthetics and functionality intact.
 
 [TODO! image & caption for finished project]
 
@@ -21,10 +22,10 @@ drive and SD card slots.*
 The teardown is needed to find what type of panel is being used in the iMac so the approaiate HDMI
 controller can be purchased. The sticker on the back of the panel will show this:
 
-![Label on the back of the panel from the project](img/panel_label.png)
-*The label will be on the back of the panel, you can search AliExpress for a HDMI controller that
-will work to convert the panel over to an external display, information about the HDMI controller
-will determine what hardware will be needed.*
+![Label on the back of the panel from the project highlighted in yellow](img/panel_label.png)
+*The label on the back of the panel has been highlighted in yellow, the image shows that the panel
+regarding this project is an LG LM215WF3-SDC2. The information can be used to find a HDMI
+controller board that will translate HDMI signal to the display panel.*
 
 ## Equipment, hardware & materials
 ### Equipment
@@ -47,19 +48,29 @@ will determine what hardware will be needed.*
 - Electrical tape
 - End terminal rated at minimum 10A
 
-## Salvaging iMac parts
-### iMac stock power delivery
-Keep the iMac's power cabling was important for asthetic reasons, to achieve this the input power
-delivery of 240V AC has to be converted to a desired DC output using a switching power supply.
+## Salvaging OEM parts
+### OEM power cabling
+Keeping the OEM power cabling was important as other projects will remove sections of the chassis
+to help with cabling, this project is based on the aesthetic of the iMac so salvaging the OEM power
+delivery cables was the reason for this decision.
 
-![Cropped image of the teardown showing the location of the power delivery highlighted in yellow](img/power_cable_highlighted.png)
-*Trying to retain the power delivery will keep the outside asthetic of the project*
+The solution is to use a switching power supply that will convert the power coming from mains into
+the needed voltage (V) and current (A) to drive the HDMI controller board as well as any of boards 
+that will reuse the OEM parts that are to be salvaged in the project.
 
-The Meanwell LRS-100-12 Switching Power Supply can take an input range of 100-240V at 50/60 Hz from
-a grid and output a 12V DC with 8.5A current, it's even displayed on the device:
-![Label of the switching power supply showing specifications](img/switching_power_supply_label.png)
-*The choice of this Meanwell LRS-100-12 is based on the voltage needed for the HDMI and fan
-controller as they require 12V DC supplied to power the fans and power the panel via HDMI*
+![Location of OEM power cables highlighted in yellow](img/power_cable_highlighted.png)
+*The location of the OEM power cables is highlighted in yellow, it shows that the 3 wire mains has
+been split into a connector that uses live and neutral wiring and a ground wire with a terminal end
+that has been secured to an earthing lug within the iMac's chassis.*
+
+The switching power supply chosen was the Meanwell LRS-100-12, it was chosen because the HDMI
+controller board requires 12V DC input for power as well as the fan controller also needs the same
+12V DC.
+
+![Label of the Meanwell LRS-100-12 with specs highlighted](img/switching_power_supply_label.png)
+*Label of the Meanwell LRS-100-12 with the speciciations highlighted in yellow which says that the
+switching power supply can take an input range of 100-240V at a frequency of 50/60 Hz from the
+grid and will output 12V DC with 8.5A current.*
 
 **When performing this next task make sure the correct wires are attached to the correct terminal,
 handling the power supply is dangerous, TAKE NOTICE, the live (L) and neutral (N) wire connector
