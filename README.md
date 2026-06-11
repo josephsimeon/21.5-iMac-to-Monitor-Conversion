@@ -11,9 +11,11 @@ You can follow the instructions of iFixit's teardowns such as the [iMac Intel 21
 prepare the monitor, this teardown is the closest to the model that is used in this project which
 is a 21.5" iMac 1311 which was released late 2009, mid 2010 and mid 2011.
 
-![Teardown of 21.5 inch iMac displaying stock parts being salvaged](img/teardown.png)
-*Teardown of the project, showing stock parts from the iMac that is going to be used in the
-project*
+![Completed teardown of iMac showing OEM parts the project will re-use](img/teardown.png)
+*After the teardown of the project was completed, OEM parts were decided to be kept based on
+wanting to reuse as much as possible and keeping the aesthetic of the iMac's look. This includes
+the power delivery cables, speakers, LCD panel, glass panel, chassis and possibly reusing the disc
+drive and SD card slots.*
 
 ### **Read this!**
 The teardown is needed to find what type of panel is being used in the iMac so the approaiate HDMI
@@ -22,7 +24,7 @@ controller can be purchased. The sticker on the back of the panel will show this
 ![Label on the back of the panel from the project](img/panel_label.png)
 *The label will be on the back of the panel, you can search AliExpress for a HDMI controller that
 will work to convert the panel over to an external display, information about the HDMI controller
-will determine what hardware will be needed*
+will determine what hardware will be needed.*
 
 ## Equipment, hardware & materials
 ### Equipment
@@ -88,6 +90,7 @@ was attached to the other side to be screwed into the grounding lug of the chass
 instead*
 
 ### iMac speakers
+Keeping the 
 
 ### iMac panel
 
