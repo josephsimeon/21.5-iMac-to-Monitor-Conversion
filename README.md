@@ -83,6 +83,10 @@ power supply](img/switching_power_supply_installed.png)
 location on the switching power supply and a terminal end (you can crimp using wire stripper tip) 
 was attached to the other side to be screwed into the grounding lug of the chassis*
 
+![Earth wire wrapped in electrical wire on terminal end](img/earth_wire_wrapped.png)
+*Earth wire on the terminal end is wrapped with electrical tape, you could use heatshrink wrap
+instead*
+
 ### iMac speakers
 
 ### iMac panel
