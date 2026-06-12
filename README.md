@@ -121,7 +121,7 @@ OEM speakers to connect into based on the sizes of each speaker connector.*
 soldered circuitry on the bottom of the board from short circuiting by touching metal as well as 
 double-sided tape to secure the board to the chassis.*
 
-![Crossover speakers connected to the OEM speakers](img/crossover_speaker_connecters_attached.png)
+![Crossover speakers connected to the OEM speakers](img/crossover_speaker_connectors_attached.png)
 *Each speaker side has a different size connector which will match one of the sizes on the
 crossover speaker board, I have also attached the connection between the crossover speaker board to
 the HDMI controller based on the diagrams.*
