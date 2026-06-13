@@ -19,7 +19,7 @@ the power delivery cables, speakers, LCD panel, glass panel, chassis and possibl
 drive and SD card slots.*
 
 ### **Read this!**
-The teardown is needed to find what type of panel is being used in the iMac so the approaiate HDMI
+The teardown is needed to find what type of panel is being used in the iMac so the appropriate HDMI
 controller can be purchased. The sticker on the back of the panel will show this:
 
 ![Label on the back of the panel from the project highlighted in yellow](img/panel_label.png)
